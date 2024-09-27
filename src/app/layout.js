@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: Home Decor",
+  title: "Home Decor",
   description: "Website Designed By SOUFIANE TAKI",
 };
 
