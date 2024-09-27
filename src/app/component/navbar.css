@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    top: 3px;
+    top: 13px;
     z-index: 3;
 }
 #list a{
