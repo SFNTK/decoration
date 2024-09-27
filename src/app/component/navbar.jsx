@@ -9,6 +9,7 @@ const Navbar = (props) => {
         <div id='nav'>
             <img src='./logo.png'/>
             <ul id='list'>
+                        <li><a href='/'>Home</a></li>
                 <li><a href='#categoriapara'>Categories</a></li>
                 <li> <a href="#numbers">About</a></li>
                 <li><a href="#finalgall">Gallery</a> </li>
