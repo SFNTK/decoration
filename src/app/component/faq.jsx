@@ -12,7 +12,7 @@ const Faq = () => {
         <div id='faq'>
 
             <div>
-                <span>FAQ'S</span>
+                <span>FAQS</span>
                 <p>Still Have Any Questions ?</p>
                 <div>Ask Any Question</div>
             </div>
