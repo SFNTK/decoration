@@ -1,27 +1,54 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+a{
+  text-decoration: none;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+#frstview{
+  width: 100%;
+  position: relative;
 }
+#phonemenu{
+  width: 100vw;
+  transform: scaleY(0);
+  transition:  transform 1s;
+  transform-origin: center;
+  
+  height: 100vh;
+  background-color: #004643;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+#phonemenu ul{
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 25%;
+ 
+  row-gap: 15px;
+column-gap: 15px;
+
+}
+#close{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 20px;
+  height: 20px;
+}
+#phonemenu li{
+  padding: 4%;
+border-radius: 10px;
+background-color: #CAC9C9;
+color: black;
+width: 100%;
+text-align: center;
+
 }

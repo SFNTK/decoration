@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/app/component/categorieimages.jsx", "src/app/component/bigimage.jsx", "src/app/component/categoriepara.jsx", "src/app/component/Contact.jsx", "src/app/component/faq.jsx", "src/app/component/footer.jsx", "src/app/component/gallerypara.jsx", "src/app/component/gellery.jsx", "src/app/component/hero.jsx", "src/app/component/navbar.jsx", "src/app/component/numbers.jsx", "src/app/component/test.jsx", "src/app/component/testicaro.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
