@@ -42,7 +42,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <img src='./footermail.png'/>
-                                <span>testfakeemail@gmail.com</span>
+                                <span>contact@hdecor.com</span>
                             </div>
                         </div>
 
