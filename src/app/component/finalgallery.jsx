@@ -18,7 +18,7 @@ const Finalgallery = () => {
     const[contentimage,setcontentimage]=useState(<div></div>)
     useEffect(()=>{
         const dataimg=imagesarray.map(data=>{
-            return <span onClick={()=>{
+            return <span key={data.key} onClick={()=>{
                 imageful2.current.src=data.image;
                 imageful.current.style.display="flex";
                 galleryref.current.style.animationPlayState = 'paused';
